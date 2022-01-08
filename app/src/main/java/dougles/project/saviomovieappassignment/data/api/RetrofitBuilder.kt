@@ -8,7 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RetrofitBuilder {
 
     companion object {
-        private const val BASE_URL = "https://gist.githubusercontent.com/"
+        //        private const val BASE_URL = "https://gist.githubusercontent.com/"
+        private const val BASE_URL = "https://api.themoviedb.org/"
 
         private val httpLoggingInterceptor =
             HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)

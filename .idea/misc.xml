@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/drawable/button_bg.xml" value="0.25846153846153846" />
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.25846153846153846" />
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/drawable/ic_baseline_arrow_upward_24.xml" value="0.25846153846153846" />
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.25846153846153846" />
         <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/activity_movie_details.xml" value="0.32432432432432434" />
         <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/coming_soon_item_layout.xml" value="0.12222222222222222" />
         <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Dougles/StudioProjects/Savio-Movie-App-Assignment/app/src/main/res/layout/now_showing_item_layout.xml" value="0.12395833333333334" />
       </map>
     </option>
   </component>

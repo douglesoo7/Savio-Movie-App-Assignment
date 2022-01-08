@@ -10,7 +10,7 @@ class ComingSoonSliderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemV
 
     fun setImage(sliderItem: SliderItem) {
         itemView.apply {
-            Glide.with(context).load(sliderItem.imageUrl).into(ivComingSoonMoviePoster)
+            Glide.with(ivComingSoonMoviePoster).load("https://image.tmdb.org/t/p/w500/"+sliderItem.imageUrl).into(ivComingSoonMoviePoster)
         }
     }
 

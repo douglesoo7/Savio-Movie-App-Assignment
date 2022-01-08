@@ -3,22 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#184b5a"
+    android:background="#0A4172"
+    android:paddingTop="30dp"
     tools:context=".ui.activitiesandfragments.HomeFragment">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_menu_24" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_search_24" />
 
     <TextView
         android:id="@+id/tvHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
         android:text="Movies"
-        android:textSize="25sp" />
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tvHeader">
+        android:layout_below="@id/tvHeader"
+        android:layout_marginTop="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -41,21 +61,16 @@
                 android:layout_below="@id/viewPagerSliderComingSoon"
                 android:layout_centerHorizontal="true"
                 android:text="Now Showing"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
                 android:textSize="22dp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewNowShowing"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/textView"
                 android:layout_marginHorizontal="12dp" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="1000dp"
-                android:layout_below="@id/textView"
-                android:scaleType="fitXY"
-                android:src="@mipmap/ic_launcher" />
 
         </RelativeLayout>
 

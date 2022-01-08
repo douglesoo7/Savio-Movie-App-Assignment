@@ -15,8 +15,7 @@ class ComingSoonSliderAdapter(
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ComingSoonSliderViewHolder {
-        val view =
-            LayoutInflater.from(context).inflate(R.layout.coming_soon_item_layout, parent, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.coming_soon_item_layout, parent, false)
         return ComingSoonSliderViewHolder(view)
     }
 

@@ -80,6 +80,6 @@ dependencies {
     //ViewPager2
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 
-    //Rounded Image View
-    implementation "com.makeramen:roundedimageview:2.3.0"
-}
+    //Paging Version
+    def paging_version = "3.0.1"
+    implementation "androidx.paging:paging-runtime:$paging_version"}
